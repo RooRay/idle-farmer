@@ -66,7 +66,7 @@ export default class TitleScreen extends Phaser.Scene {
 
 		// text_2
 		const text_2 = this.add.text(837.1, 396.46, "", {});
-		text_2.text = "Continue Existing";
+		text_2.text = "Continue Existing Save";
 		text_2.setStyle({ "fontSize": "25px" });
 
 		this.events.emit("scene-awake");
